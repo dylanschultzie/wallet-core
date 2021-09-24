@@ -1767,5 +1767,31 @@
       "clientPublic": "https://mainnet.crypto.org:1317/",
       "clientDocs": "https://crypto.org/docs/resources/chain-integration.html#api-documentation"
     }
+  },
+  {
+    "id": "secret",
+    "name": "Secret Network",
+    "coinId": 529,
+    "symbol": "SCRT",
+    "decimals": 6,
+    "blockchain": "Cosmos",
+    "derivationPath": "m/44'/529'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1",
+    "hrp": "secret",
+    "explorer": {
+      "url": "https://secretnodes.com/secret/chains/secret-3/",
+      // TODO: secretnodes might not work
+      "txPath": "/transactions/",
+      "accountPath": "/accounts/",
+      "sampleTx": "AC026E0EC6E33A77D5EA6B9CEF9810699BC2AD8C5582E007E7857457C6D3B819",
+      "sampleAccount": "secret1hzeeyaj2dql3dgx5taaksndzeelc7f590v3gyk"
+    },
+    "info": {
+      "url": "https://scrt.network/",
+      "source": "https://github.com/enigmampc/SecretNetwork",
+      "rpc": "http://api.scrt.network:26657",
+      "documentation": "https://docs.scrt.network/"
+    }
   }
 ]
